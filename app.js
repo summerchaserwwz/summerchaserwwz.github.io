@@ -12,6 +12,7 @@ const insightsGrid = document.querySelector('#insightsGrid');
 const insightNote = document.querySelector('#insightNote');
 
 let currentLanguage = '';
+const isStaticSite = window.location.hostname.endsWith('github.io');
 
 async function fetchJsonWithRetry(url, attempts = 3, delayMs = 500) {
   let lastError = null;
@@ -31,6 +32,15 @@ async function fetchJsonWithRetry(url, attempts = 3, delayMs = 500) {
     }
   }
   throw lastError || new Error('请求失败');
+}
+
+async function loadStaticPayload() {
+  const fileName = pageMode === 'custom' ? 'custom-top.json' : 'official-top.json';
+  const response = await fetch(`./data/${fileName}?ts=${Date.now()}`, { cache: 'no-store' });
+  if (!response.ok) {
+    throw new Error('静态数据不存在');
+  }
+  return response.json();
 }
 
 const topicColorClasses = [
@@ -293,7 +303,25 @@ async function loadData() {
   if (heroRefreshButton) heroRefreshButton.disabled = true;
   cardsElement.innerHTML = '<div class="empty-state">正在加载最新趋势…</div>';
   try {
-    const payload = await fetchJsonWithRetry(`${endpoint}?${params.toString()}`);
+    let payload;
+    if (isStaticSite) {
+      payload = await loadStaticPayload();
+    } else {
+      try {
+        payload = await fetchJsonWithRetry(`${endpoint}?${params.toString()}`);
+      } catch (error) {
+        payload = await loadStaticPayload();
+      }
+    }
+
+    if (pageMode === 'custom' && topNSelect) {
+      const limit = Number(topNSelect.value || '20');
+      payload.items = (payload.items || []).slice(0, limit).map((item, index) => ({ ...item, rank: index + 1 }));
+    }
+    if (pageMode === 'custom' && currentLanguage) {
+      payload.items = (payload.items || []).filter((item) => (item.language || '').toLowerCase() === currentLanguage.toLowerCase());
+    }
+
     renderLanguageChips(payload.insights || {});
     renderInsights(payload.insights || {}, payload.note || '');
     renderCards(payload);
