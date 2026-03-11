@@ -1,0 +1,550 @@
+{
+  "fetchedAt": "2026-03-11T11:02:00.931Z",
+  "source": "GitHub Trending + GitHub REST API",
+  "since": "daily",
+  "language": "",
+  "requestedLimit": 20,
+  "availableCount": 9,
+  "notice": "截至 2026/3/11 19:02:00，GitHub Trending 日榜页面当前只返回 9 个项目，所以不是你设置的 20 个。",
+  "items": [
+    {
+      "owner": "msitarzewski",
+      "repo": "agency-agents",
+      "fullName": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "readmeUrl": "https://github.com/msitarzewski/agency-agents#readme",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "totalStars": 27720,
+      "forks": 4356,
+      "starsToday": 6223,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/msitarzewski/agency-agents",
+      "rank": 1,
+      "topics": [],
+      "homepage": "",
+      "openIssues": 22,
+      "watchers": 261,
+      "license": "MIT",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T11:01:49Z",
+      "stars": 27720,
+      "readmeExcerpt": "",
+      "shortDescription": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each…",
+      "purposeSummary": "AI / 智能体相关：A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from wh…",
+      "topicLinks": []
+    },
+    {
+      "owner": "666ghj",
+      "repo": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "readmeUrl": "https://github.com/666ghj/MiroFish#readme",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "totalStars": 15836,
+      "forks": 1663,
+      "starsToday": 4504,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/666ghj/MiroFish",
+      "rank": 2,
+      "topics": [
+        "agent-memory",
+        "financial-forecasting",
+        "future-prediction",
+        "knowledge-graph",
+        "llms",
+        "multi-agent-simulation",
+        "public-opinion-analysis",
+        "python3",
+        "social-prediction",
+        "swarm-intelligence"
+      ],
+      "homepage": "https://666ghj.github.io/mirofish-demo/",
+      "openIssues": 67,
+      "watchers": 75,
+      "license": "AGPL-3.0",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T11:01:48Z",
+      "stars": 15836,
+      "readmeExcerpt": "",
+      "shortDescription": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "purposeSummary": "AI / 智能体相关：A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "topicLinks": [
+        {
+          "name": "agent-memory",
+          "url": "https://github.com/topics/agent-memory"
+        },
+        {
+          "name": "financial-forecasting",
+          "url": "https://github.com/topics/financial-forecasting"
+        },
+        {
+          "name": "future-prediction",
+          "url": "https://github.com/topics/future-prediction"
+        },
+        {
+          "name": "knowledge-graph",
+          "url": "https://github.com/topics/knowledge-graph"
+        },
+        {
+          "name": "llms",
+          "url": "https://github.com/topics/llms"
+        },
+        {
+          "name": "multi-agent-simulation",
+          "url": "https://github.com/topics/multi-agent-simulation"
+        },
+        {
+          "name": "public-opinion-analysis",
+          "url": "https://github.com/topics/public-opinion-analysis"
+        },
+        {
+          "name": "python3",
+          "url": "https://github.com/topics/python3"
+        },
+        {
+          "name": "social-prediction",
+          "url": "https://github.com/topics/social-prediction"
+        },
+        {
+          "name": "swarm-intelligence",
+          "url": "https://github.com/topics/swarm-intelligence"
+        }
+      ]
+    },
+    {
+      "owner": "obra",
+      "repo": "superpowers",
+      "fullName": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "readmeUrl": "https://github.com/obra/superpowers#readme",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "totalStars": 77318,
+      "forks": 5985,
+      "starsToday": 1387,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/obra/superpowers",
+      "rank": 3,
+      "topics": [],
+      "homepage": "",
+      "openIssues": 120,
+      "watchers": 369,
+      "license": "MIT",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T11:01:19Z",
+      "stars": 77318,
+      "readmeExcerpt": "",
+      "shortDescription": "An agentic skills framework & software development methodology that works.",
+      "purposeSummary": "AI / 智能体相关：An agentic skills framework & software development methodology that works.",
+      "topicLinks": []
+    },
+    {
+      "owner": "alibaba",
+      "repo": "page-agent",
+      "fullName": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "readmeUrl": "https://github.com/alibaba/page-agent#readme",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "totalStars": 4203,
+      "forks": 333,
+      "starsToday": 891,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/alibaba/page-agent",
+      "rank": 4,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "browser-automation",
+        "javascript",
+        "typescript",
+        "ui-automation",
+        "web"
+      ],
+      "homepage": "https://alibaba.github.io/page-agent/",
+      "openIssues": 27,
+      "watchers": 10,
+      "license": "MIT",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T11:00:18Z",
+      "stars": 4203,
+      "readmeExcerpt": "",
+      "shortDescription": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "purposeSummary": "AI / 智能体相关：JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "topicLinks": [
+        {
+          "name": "agent",
+          "url": "https://github.com/topics/agent"
+        },
+        {
+          "name": "ai",
+          "url": "https://github.com/topics/ai"
+        },
+        {
+          "name": "ai-agents",
+          "url": "https://github.com/topics/ai-agents"
+        },
+        {
+          "name": "browser-automation",
+          "url": "https://github.com/topics/browser-automation"
+        },
+        {
+          "name": "javascript",
+          "url": "https://github.com/topics/javascript"
+        },
+        {
+          "name": "typescript",
+          "url": "https://github.com/topics/typescript"
+        },
+        {
+          "name": "ui-automation",
+          "url": "https://github.com/topics/ui-automation"
+        },
+        {
+          "name": "web",
+          "url": "https://github.com/topics/web"
+        }
+      ]
+    },
+    {
+      "owner": "NousResearch",
+      "repo": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "readmeUrl": "https://github.com/NousResearch/hermes-agent#readme",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": 4482,
+      "forks": 548,
+      "starsToday": 781,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/NousResearch/hermes-agent",
+      "rank": 5,
+      "topics": [],
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "openIssues": 240,
+      "watchers": 16,
+      "license": "MIT",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T11:01:12Z",
+      "stars": 4482,
+      "readmeExcerpt": "",
+      "shortDescription": "The agent that grows with you",
+      "purposeSummary": "AI / 智能体相关：The agent that grows with you",
+      "topicLinks": []
+    },
+    {
+      "owner": "promptfoo",
+      "repo": "promptfoo",
+      "fullName": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "readmeUrl": "https://github.com/promptfoo/promptfoo#readme",
+      "description": "Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "language": "TypeScript",
+      "totalStars": 12267,
+      "forks": 1135,
+      "starsToday": 661,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/promptfoo/promptfoo",
+      "rank": 6,
+      "topics": [
+        "ci",
+        "ci-cd",
+        "cicd",
+        "evaluation",
+        "evaluation-framework",
+        "llm",
+        "llm-eval",
+        "llm-evaluation",
+        "llm-evaluation-framework",
+        "llmops",
+        "pentesting",
+        "prompt-engineering",
+        "prompt-testing",
+        "prompts",
+        "rag",
+        "red-teaming",
+        "testing",
+        "vulnerability-scanners"
+      ],
+      "homepage": "https://promptfoo.dev",
+      "openIssues": 262,
+      "watchers": 37,
+      "license": "MIT",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T10:58:38Z",
+      "stars": 12267,
+      "readmeExcerpt": "",
+      "shortDescription": "Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, G…",
+      "purposeSummary": "AI / 智能体相关：Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLM…",
+      "topicLinks": [
+        {
+          "name": "ci",
+          "url": "https://github.com/topics/ci"
+        },
+        {
+          "name": "ci-cd",
+          "url": "https://github.com/topics/ci-cd"
+        },
+        {
+          "name": "cicd",
+          "url": "https://github.com/topics/cicd"
+        },
+        {
+          "name": "evaluation",
+          "url": "https://github.com/topics/evaluation"
+        },
+        {
+          "name": "evaluation-framework",
+          "url": "https://github.com/topics/evaluation-framework"
+        },
+        {
+          "name": "llm",
+          "url": "https://github.com/topics/llm"
+        },
+        {
+          "name": "llm-eval",
+          "url": "https://github.com/topics/llm-eval"
+        },
+        {
+          "name": "llm-evaluation",
+          "url": "https://github.com/topics/llm-evaluation"
+        },
+        {
+          "name": "llm-evaluation-framework",
+          "url": "https://github.com/topics/llm-evaluation-framework"
+        },
+        {
+          "name": "llmops",
+          "url": "https://github.com/topics/llmops"
+        },
+        {
+          "name": "pentesting",
+          "url": "https://github.com/topics/pentesting"
+        },
+        {
+          "name": "prompt-engineering",
+          "url": "https://github.com/topics/prompt-engineering"
+        },
+        {
+          "name": "prompt-testing",
+          "url": "https://github.com/topics/prompt-testing"
+        },
+        {
+          "name": "prompts",
+          "url": "https://github.com/topics/prompts"
+        },
+        {
+          "name": "rag",
+          "url": "https://github.com/topics/rag"
+        },
+        {
+          "name": "red-teaming",
+          "url": "https://github.com/topics/red-teaming"
+        },
+        {
+          "name": "testing",
+          "url": "https://github.com/topics/testing"
+        },
+        {
+          "name": "vulnerability-scanners",
+          "url": "https://github.com/topics/vulnerability-scanners"
+        }
+      ]
+    },
+    {
+      "owner": "AstrBotDevs",
+      "repo": "AstrBot",
+      "fullName": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "readmeUrl": "https://github.com/AstrBotDevs/AstrBot#readme",
+      "description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "totalStars": 20728,
+      "forks": 1497,
+      "starsToday": 337,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/AstrBotDevs/AstrBot",
+      "rank": 7,
+      "topics": [
+        "agent",
+        "ai",
+        "chatbot",
+        "chatgpt",
+        "discord",
+        "docker",
+        "gemini",
+        "gpt",
+        "llama",
+        "llm",
+        "mcp",
+        "openai",
+        "python",
+        "qq",
+        "qqbot",
+        "telegram"
+      ],
+      "homepage": "https://astrbot.app",
+      "openIssues": 664,
+      "watchers": 64,
+      "license": "AGPL-3.0",
+      "defaultBranch": "master",
+      "updatedAt": "2026-03-11T11:01:57Z",
+      "stars": 20728,
+      "readmeExcerpt": "",
+      "shortDescription": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative.…",
+      "purposeSummary": "AI / 智能体相关：Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI featur…",
+      "topicLinks": [
+        {
+          "name": "agent",
+          "url": "https://github.com/topics/agent"
+        },
+        {
+          "name": "ai",
+          "url": "https://github.com/topics/ai"
+        },
+        {
+          "name": "chatbot",
+          "url": "https://github.com/topics/chatbot"
+        },
+        {
+          "name": "chatgpt",
+          "url": "https://github.com/topics/chatgpt"
+        },
+        {
+          "name": "discord",
+          "url": "https://github.com/topics/discord"
+        },
+        {
+          "name": "docker",
+          "url": "https://github.com/topics/docker"
+        },
+        {
+          "name": "gemini",
+          "url": "https://github.com/topics/gemini"
+        },
+        {
+          "name": "gpt",
+          "url": "https://github.com/topics/gpt"
+        },
+        {
+          "name": "llama",
+          "url": "https://github.com/topics/llama"
+        },
+        {
+          "name": "llm",
+          "url": "https://github.com/topics/llm"
+        },
+        {
+          "name": "mcp",
+          "url": "https://github.com/topics/mcp"
+        },
+        {
+          "name": "openai",
+          "url": "https://github.com/topics/openai"
+        },
+        {
+          "name": "python",
+          "url": "https://github.com/topics/python"
+        },
+        {
+          "name": "qq",
+          "url": "https://github.com/topics/qq"
+        },
+        {
+          "name": "qqbot",
+          "url": "https://github.com/topics/qqbot"
+        },
+        {
+          "name": "telegram",
+          "url": "https://github.com/topics/telegram"
+        }
+      ]
+    },
+    {
+      "owner": "virattt",
+      "repo": "ai-hedge-fund",
+      "fullName": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "readmeUrl": "https://github.com/virattt/ai-hedge-fund#readme",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "totalStars": 47874,
+      "forks": 8335,
+      "starsToday": 300,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/virattt/ai-hedge-fund",
+      "rank": 8,
+      "topics": [],
+      "homepage": "",
+      "openIssues": 67,
+      "watchers": 586,
+      "license": "",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T10:59:06Z",
+      "stars": 47874,
+      "readmeExcerpt": "",
+      "shortDescription": "An AI Hedge Fund Team",
+      "purposeSummary": "AI / 智能体相关：An AI Hedge Fund Team",
+      "topicLinks": []
+    },
+    {
+      "owner": "fishaudio",
+      "repo": "fish-speech",
+      "fullName": "fishaudio/fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "readmeUrl": "https://github.com/fishaudio/fish-speech#readme",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "totalStars": 25460,
+      "forks": 2145,
+      "starsToday": 277,
+      "previewImageUrl": "https://opengraph.githubassets.com/1/fishaudio/fish-speech",
+      "rank": 9,
+      "topics": [
+        "llama",
+        "transformer",
+        "tts",
+        "valle",
+        "vits",
+        "vqgan",
+        "vqvae"
+      ],
+      "homepage": "https://speech.fish.audio",
+      "openIssues": 29,
+      "watchers": 141,
+      "license": "NOASSERTION",
+      "defaultBranch": "main",
+      "updatedAt": "2026-03-11T10:59:57Z",
+      "stars": 25460,
+      "readmeExcerpt": "",
+      "shortDescription": "SOTA Open Source TTS",
+      "purposeSummary": "开源项目：SOTA Open Source TTS",
+      "topicLinks": [
+        {
+          "name": "llama",
+          "url": "https://github.com/topics/llama"
+        },
+        {
+          "name": "transformer",
+          "url": "https://github.com/topics/transformer"
+        },
+        {
+          "name": "tts",
+          "url": "https://github.com/topics/tts"
+        },
+        {
+          "name": "valle",
+          "url": "https://github.com/topics/valle"
+        },
+        {
+          "name": "vits",
+          "url": "https://github.com/topics/vits"
+        },
+        {
+          "name": "vqgan",
+          "url": "https://github.com/topics/vqgan"
+        },
+        {
+          "name": "vqvae",
+          "url": "https://github.com/topics/vqvae"
+        }
+      ]
+    }
+  ]
+}
